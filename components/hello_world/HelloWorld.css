@@ -1,0 +1,142 @@
+#home-title-box{
+	color: rgb(63, 63, 219);
+	position: relative;
+	text-align: center;
+}
+
+.link, #home-title, #home-subtitle{
+	text-shadow: black 1px 1px;
+}
+
+.link, .link:visited{
+	color: rgb(63, 63, 219);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.2s;
+}
+
+
+.link:hover {
+  color: #0077ff;
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media screen and (max-width: 576px) {
+	#home-title-box{
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+		top: -28%;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay for contrast */
+        border-radius: 1rem;
+    }
+
+	#home-title{
+		font-size: 2rem;
+	}
+
+	#home-subtitle{
+		font-size: 1rem;
+	}
+	
+	
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		top: -26%;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay for contrast */
+        border-radius: 1rem;
+    }
+
+	#home-title{
+		font-size: 2rem;
+	}
+
+	#home-subtitle{
+		font-size: 1rem;
+	}
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay for contrast */
+        border-radius: 1rem;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 1024.01px) and (max-width: 1280px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay for contrast */
+        border-radius: 1rem;
+    }
+	
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1280.01px) and (max-width: 1536px){
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay for contrast */
+        border-radius: 1rem;
+    }
+  	
+}
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1536px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		top: -10%;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay for contrast */
+        border-radius: 1rem;
+    }
+
+  	
+}
+
