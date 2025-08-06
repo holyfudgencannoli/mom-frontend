@@ -1,6 +1,6 @@
 // Navbar.jsx
 import React, { useEffect, useRef } from "react";
-import "./Navbar.css";
+import "./NavBar.css";
 import RollingText from '../animate-ui/text/RollingText';
 import { useState } from "react";
 
